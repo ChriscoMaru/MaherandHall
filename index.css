@@ -22,12 +22,7 @@ nav{
     margin-left: 20px;
 }
 
-/* carousel styling */
-
-.container{
-    margin-top: 10%;
-    margin-bottom: 10%;
-    }
+    /* carousel styling */
 .carousel{
     background-color: #ffacac;
 }
@@ -49,7 +44,26 @@ nav{
     background-color: black;
 }
 
+.test1{
+    margin-top: 20%;
+    margin-right: 20%;
+    padding-left: 20%;
+}
+
+.testName{
+    margin-top: 5%;
+    padding-left: 20%;
+}
+
+
+
 /* best seller area styling */
+
+.container{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    }
+
 .col{
     font-family: 'Montserrat', sans-serif;
 }
