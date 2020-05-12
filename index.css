@@ -28,12 +28,7 @@ nav{
     margin-left: 20px;
 }
 
-/* carousel styling */
-
-.container{
-    margin-top: 10%;
-    margin-bottom: 10%;
-    }
+    /* carousel styling */
 .carousel{
     max-width: 100%;
     background-color: #ffacac;
@@ -58,7 +53,39 @@ nav{
     background-color: black;
 }
 
+.test1{
+    margin-top: 20%;
+    margin-right: 20%;
+    padding-left: 20%;
+    text-align: center;
+}
+
+.testName{
+    margin-top: 5%;
+    padding-left: 20%;
+}
+
+/* media calls for responsive carousel */
+@media (max-width: 979px) {
+    .carousel {
+    width: 100%;
+    height: auto;
+
+}
+}
+
+
+@media (max-width: 470px) {
+    .carousel {
+    max-width:300%;
+    width:150%;
+    min-height: 300px;
+}
+}
+
+
 /* best seller area styling */
+
 
 .bestSeller{
     margin: 0 auto;
@@ -68,6 +95,20 @@ nav{
 .bestSeller img{
     border-radius: 10%;
     max-width: 100%;
+
+.container{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    }
+
+.col{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.col img{
+    border-radius: 10%;
+    justify-content: center;
+
 }
 
 .bestSeller h2{
@@ -99,6 +140,7 @@ footer p{
 	margin-bottom: 0;
 
 }
+
 footer a{
 	color: white;
 	font-weight: 600;
@@ -144,3 +186,4 @@ footer a{
            clear: both;
        }
 }
+
