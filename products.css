@@ -95,6 +95,10 @@ h5 {
   font-weight: 800;
 }
 
+#btnposition {
+  position: relative;
+  bottom: 0px;
+}
 .modal-header,
 .modal-footer {
   background-color: #ff5c5c;
