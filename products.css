@@ -86,13 +86,26 @@ h5 {
 }
 
 #btncss {
-    /* position: relative; */
-    
-    border-radius: 0px;
-    background-color: #ff5c5c;
-    border: 0px;
-    color: #161e67;
-    font-weight: 800;
+  /* position: relative; */
+
+  border-radius: 0px;
+  background-color: #ff5c5c;
+  border: 0px;
+  color: #161e67;
+  font-weight: 800;
+}
+
+.modal-header,
+.modal-footer {
+  background-color: #ff5c5c;
+}
+
+.modal-button {
+  border-radius: 0px;
+  background-color: #ff5c5c;
+  border: 0px;
+  color: #161e67;
+  font-weight: 800;
 }
 
 /* vanbar ||||||||||||||||||||||||||||||||||||||||||||||||| */
