@@ -12,14 +12,13 @@
 
 
   <body>
-
-    <nav class="navbar navbar-expand-lg">
+    <!-- narbar starts here -->
+    <nav class="navbar navbar-expand-lg fixed-top">
       <div class="navHeader">
         <a class="navbar-brand" href="index.html">
         <img src="assets/jamsjellieslogo.png" width="55" height="55" class="d-inline-block align-top" alt="jelly"><span class="brandClass">Maher & Hall's</span> </a>
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <!-- <span class="navbar-toggler-icon"></span> -->
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
@@ -31,17 +30,8 @@
               <li class="nav-item">
                 <a class="nav-link" href="products.html">Products</a>
               </li>    
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="products.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Products
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Jams</a>
-              <a class="dropdown-item" href="#">Jellies</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Purchase</a>
-            </div>
-          </li> -->
+            </ul>
+          </div>
         </ul>
       </div>
         <!-- This is the search bar, if you can get it working please go ahead! -CM
@@ -51,24 +41,19 @@
         <!-- </form> -->
       </nav>
 
-    <!-- <script>
-      script not working, this is for timing of carousel
-      $('.carousel').carousel({
-        interval: 1000
-      })
-    </script> -->
-
-    <div class="container">
+      <!-- best seller area -->
+    <div class="container d-inline-flex">
       <div class="row">
         <div class="col"><img src="assets/Images/Products/mixberry.png" width="500" height="500" alt="bestSell"></div>
         <div class="col compName">
           <h2>Our Best Seller!</h2>
           <p>Our Huckleberry Jam is how we started, the start we set off on a misison to provide the best product possible, with you in mind. Join the thousands of people already enjoying it, from using it in stove top recipes, to spreading it over your morning toast, this versatile spread will bring you taste buds joy!</p>
         </div>
-        <div class="w-100"></div>
+        <!-- <div class="w-100"></div> -->
       </div>
     </div>
 
+    <!-- testimonial carousel -->
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -80,14 +65,12 @@
                 <p class="test1">“My mom has always used Maher and Hall’s Famous Jams and Jellies since I was small so as a parent, I won't use anything else with my kids. Whether its grape, strawberry, or blackberry, it comes from Maher and Hall. Their price is so reasonable, and I would recommend this product to all moms.”</p>
                 <h2 class="testName">-Shannon Ortiz</h2>
               </div>
-              <div class="w-100"></div>
+              <!-- <div class="w-100"></div> -->
             </div>
           </div>
-        
-  
         </div>
+        
         <div class="carousel-item">
-
           <div class="container">
             <div class="row">
               <div class="col"><img src="assets/Testimonials/c.png" width="400" height="400" class="d-block" alt="..."></div>
@@ -95,13 +78,12 @@
                 <p class="test1">“I prefer strawberry jams, AND Maher and Hall’s Strawberry Jam beats out all of the others! This one has great texture and natural flavor! I recommend Maher and Hall’s Grape Jelly over any other grape spread as well! Actually, try whichever flavor you prefer. You can’t go wrong!”</p>
                 <h2 class="testName">-C. Robinson</h2>
               </div>
-              <div class="w-100"></div>
+              <!-- <div class="w-100"></div> -->
             </div>
           </div>
-
         </div>
-        <div class="carousel-item">
 
+        <div class="carousel-item">
           <div class="container">
             <div class="row">
               <div class="col"><img src="assets/Testimonials/joseph.png" width="400" height="400" class="d-block" alt="..."></div>
@@ -113,23 +95,21 @@
             </div>
           </div>
         </div>
-
       </div>
+      <!-- carousel controls -->
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
+      
       <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
     </div>
   
+  <!-- footer    -->
   <footer>
-    <!-- <p>Address: 123 Pickup truck lane Charlotte, NC</p>
-    <p>Phone Number: 704-123-4567</p>
-    <p>Email us at: <a href="info@MHJamsandJellies.com">someone@example.com</a>.</p> -->
-
     <table style="width:100%">
       <tr>
         <th id="compName">Maher & Hall's Premium Jams and Jellies</th>
@@ -144,10 +124,9 @@
         <th>Email us at: <a href="info@MHJamsandJellies.com">info@MHJamsandJellies.com</a></th>
       </tr>
     </table>
-
   </footer>
   
-
+    <!-- jquery and minified bootstrap 4 -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
