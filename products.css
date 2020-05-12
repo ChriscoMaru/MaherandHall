@@ -96,8 +96,8 @@ h5 {
 }
 
 #btnposition {
-  position: relative;
-  bottom: 0px;
+  position: absolute;
+  bottom: 20px;
 }
 .modal-header,
 .modal-footer {
@@ -168,3 +168,37 @@ footer {
     padding-left: 80px;
   }
 }
+
+
+/* changed to accommodate smaller screen*/
+/*line24*/
+#xxlarge {
+  font-size: 40px;
+  }
+  /*Added font-weight to .navbar a*/
+  .navbar a{
+  color:white;
+  font-weight: 800;
+  margin-left: 20px;
+  }
+  /*Added media queries to adjust sizing
+  as you scale UP in size*/
+  @media screen and (min-width: 480px) {
+  .navbar-brand{
+  color:white;
+  font-size: 38px;
+  }
+  }
+  @media(min-width: 548px){
+    #coloredright {
+      font-size: 28px;
+      }
+      #xxlarge {
+      font-size: 80px;
+      }
+      }
+  @media(min-width: 768px){
+      #xxlarge {
+      font-size: 120px;
+      }
+      }
