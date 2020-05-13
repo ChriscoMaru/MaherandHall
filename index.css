@@ -25,6 +25,7 @@ nav{
     /* carousel styling */
 .carousel{
     background-color: #ffacac;
+    margin-bottom: 50px;
 }
 .carousel img {
     border: solid 3px;
@@ -114,4 +115,13 @@ footer {
 
 #compName{
     font-size: 15px;
+}
+
+footer a{
+	color: white;
+	font-weight: 600;
+}
+
+footer a:hover{
+	color: #161e67; 
 }
