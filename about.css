@@ -73,7 +73,7 @@ nav{
     align-items: center;
 }
 
-.about h3, h2, h4, .about p {
+.about h3, h2, h4, h2, .about p {
     margin: 0 50px;
     color: white;
     text-align: center;
@@ -149,7 +149,9 @@ nav{
     margin: 10px;
 	padding: 10px;        
 }
-
+.core h2{
+	color:black;
+}
 
 
 .card h3, .card p {
