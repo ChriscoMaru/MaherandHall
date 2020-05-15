@@ -50,11 +50,21 @@ nav{
 	font-weight: 800;
     margin-left: 20px;
 }
+.btncart{
+	padding-left: 60%;
+}
+.divcart{
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	padding-top: 15px;
+}
+
 
 .about {
     display: flex;
     flex-direction: column;
-    margin: 50px 0;
+    /* margin: 50px 0; */
     background-color:#ff5c5c;
 }
 .about h1{
@@ -63,23 +73,44 @@ nav{
     align-items: center;
 }
 
-.about h3, .about p {
+.about h3, h2, h4, .about p {
     margin: 0 50px;
     color: white;
     text-align: center;
 }
 
+
 .about p {
     margin-bottom: 50px;
 }
+
 /* ------story-------------- */
+
 .story {
-    /* display: flex;
-	flex-direction: column; */
-	align-content: center;;
+    display: flex;
+	flex-direction: column; 
+	/*align-content: center;*/
 	margin: 50px auto;
 	width: 75%;
 	
+}
+/* .storyContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+.profileImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left:50px;
+}
+
+.storyText{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
 }
 
 .story h2{
@@ -91,6 +122,7 @@ nav{
     color: #161e67;
 	margin: 10px 50px;
 }
+
 
 .row {
     display: flex;
@@ -257,7 +289,7 @@ select{
 footer {
     display: flex;
 	justify-content: center;
-	position: fixed;
+	/* position: fixed; */
 	bottom: 0;
 	width: 100%;
 	height: 130px;
@@ -282,6 +314,15 @@ footer a{
 footer a:hover{
 	color: #161e67; 
 }
+/* Social media buttons */
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+  }
 /*general form style 320*/
 
 form{
@@ -457,4 +498,47 @@ select:focus{
 	}
 	 
 	
+}
+
+
+@media screen and (min-width: 900px) {
+
+    .story {
+        display: flex;
+        flex-direction: column; 
+        /* align-content: center; */
+        margin: 50px auto;
+        width: 75%;
+        
+    }
+    .storyContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .profileImages{
+        display: flex;
+        flex-direction: column;
+        padding-left:
+    }
+    
+    .storyText{
+        display: flex;
+        flex-direction: column;
+        max-width: 85%;
+        padding-right: 10%;
+    }
+    
+    .story h2{
+        color: #161e67;
+        margin: 50px;
+    }
+    
+    .story p{
+        color: #161e67;
+        margin: 10px 50px;
+    }
+    
+    
+
 }

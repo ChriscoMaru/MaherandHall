@@ -15,6 +15,11 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 
+    <!-- Bootstrap link for social media buttons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link href="about.css" rel="stylesheet" type="text/css" />
   </head>
 
@@ -51,7 +56,11 @@
             <a class="nav-link" href="products.html">Products</a>
           </li>
         </ul>
-      </div>
+        <!-- shopping cart button -->
+        <div class = "divcart">
+        <a href="#" class="btncart">
+          <span class="glyphicon glyphicon-shopping-cart"></span> Cart</a>
+          </div>
     </nav>
 
     <br />
@@ -60,48 +69,65 @@
 
     <div class="about">
       <h1>About Us</h1>
-      <h3>Our Mission and Vision</h3>
-      <p>
-        We are a sustainable supplier of jams and jellies from heirloom fruits.
-        We strive to offer the most affordable and delicious jams in the South.
-      </p>
+      <h2>Mission and Vision</h2><br/>
+      <h4>
+        "We are a sustainable supplier of jams and jellies from heirloom fruits.<br />
+        We strive to offer the most affordable and delicious jams in the South."
+      </h4><br/>
+
     </div>
 
     <div class="story">
       <h2>Our Story</h2>
-      <p>
-        In the early 2010s two men shared a vision... Provide the world with the
-        best damn jams and jellies ever seen.
-      </p>
+      <div class="storyContent">
+          <div class="profileImages"> 
+              <figure></figure>      
+              <img src="assets/pmaher.jpeg" width= "200px" height="200px" alt="Pasha Maher, owner">
+              <!-- <figcaption style="text-align: center;">Pasha Maher, Owner</figcaption>  -->
+               <!-- <figcaption>Pasha Maher, co-owner</figcaption> -->
+              
+              <img src="assets/zhall.jpeg" width="200px" height = "200px" alt="Zach Hall, owner">
+              <!-- <figcaption style="text-align: center;">Zach Hall, Owner</figcaption>       -->
+          </div>
+          <!-- <div class="profileImages"></div> -->
+          <div class="storyText">
+              <p>
+                  In the early 2010s two men shared a vision... Provide the world with the
+                  best damn jams and jellies ever seen.
+                </p>
+          
+                <p>
+                  Hours... Days... Months passed the blood sweat and tears finally paid
+                  off. The most fantastic huckleberry jam you could ever imagine!
+                </p>
+          
+                <p>
+                  Shortly after demoing the product to a few of their closest, the two
+                  decided it was time to go mainstream.
+                </p>
+          
+                <p>
+                  Loading up their wagon in midland and took off for the big city. The
+                  cart was a hit, people crowded outside the Packard Place in uptown all
+                  hours of the day and night to get some of the delicious jams.
+                </p>
 
-      <p>
-        Hours... Days... Months passed the blood sweat and tears finally paid
-        off. The most fantastic huckleberry jam you could ever imagine!
-      </p>
+                <p>
+                  Several years and several flavors later, disaster struck… Covid-19
+                  forced their small jam wagon to close. Down on their luck Maher and Hall
+                  decided to look for new resources.
+                </p>
+          
+                <p>
+                  That's when they discovered Fry and Gardner Tech Incorporated: Industry
+                  & Financial introspective. Together the two companies set off to design
+                  a new product to bring jams and jellies into the digital age.
+                </p>
+          </div>
 
-      <p>
-        Shortly after demoing the product to a few of their closest, the two
-        decided it was time to go mainstream.
-      </p>
-
-      <p>
-        Loading up their wagon in midland and took off for the big city. The
-        cart was a hit, people crowded outside the Packard Place in uptown all
-        hours of the day and night to get some of the delicious jams.
-      </p>
-
-      <p>
-        Several years and several flavors later, disaster struck… Covid-19
-        forced their small jam wagon to close. Down on their luck Maher and Hall
-        decided to look for new resources.
-      </p>
-
-      <p>
-        That's when they discovered Fry and Gardner Tech Incorporated: Industry
-        & Financial introspective. Together the two companies set off to design
-        a new product to bring jams and jellies into the digital age.
-      </p>
-    </div>
+      </div>
+    
+  </div>
 
     <hr class="rule" />
 
@@ -289,13 +315,24 @@
 
     <div style="padding: 100px;"></div>
     <footer>
+      <div class="col-lg-2 my-2">
+        <img src="assets/jamsjellieslogo.png" width="100px" height="100px">
+      </div>
       <p class="compName">
         Maher and Hall's Jams and Jellies <br />
-        123 Pickup Truck Lane, Charlotte, NC<br />
+        123 Pickup Truck Lane<br />
         Charlotte, NC 28213<br />
         704-123-4567<br />
         <a href="#">info@MHJamsandJellies.com</a>
       </p>
+      <!-- social media buttons -->
+      <div class="col-lg-2 my-2">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+
+      </div>
     </footer>
 
     <script
